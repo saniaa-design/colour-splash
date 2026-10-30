@@ -1,10 +1,14 @@
+let a;
 function setup() {
   createCanvas(400, 400);
+  background(0);
 }
 
 function draw() {
-  background(0);
+  a= random(25)
   
-  fill(255);
-  circle(mouseX, mouseY,65)
+  noStroke();
+  fill(223,100,10);
+  circle(mouseX, mouseY, a)
+ 
 }
